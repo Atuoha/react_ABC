@@ -4,7 +4,7 @@ class Header extends Component{
     render(){
         return(
             <div>
-                <div className="jumbotron bg-dark">
+                <div className="jumbotron bgg-dark">
                    <h1 className="text-center text-white heading"> Pronounce ABC </h1>
                 </div>
             </div>

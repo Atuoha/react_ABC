@@ -18,7 +18,6 @@ import classNames from 'classnames'
 
         }
         this.previousMotion = this.previousMotion.bind(this);
-        this.repeatMotion = this.repeatMotion.bind(this);
         this.nextMotion = this.nextMotion.bind(this);
         this.randomizeWords = this.randomizeWords.bind(this)
         this.playsound = this.playsound.bind(this)
@@ -49,6 +48,11 @@ import classNames from 'classnames'
 
     previousMotion(){
 
+         // Resetting current tick
+            this.setState({
+                currentTick: 0
+            })
+
         if(this.state.randomWords !== true){
             if(this.state.currentPostion !== 0){
                 this.setState({
@@ -63,9 +67,6 @@ import classNames from 'classnames'
         
     }
 
-    repeatMotion(){
-
-    }
 
     random(max){
         return Math.floor(Math.random() * (max))
@@ -146,7 +147,7 @@ import classNames from 'classnames'
                     <div className="fill_container mx-auto mt-2">
                         <div className="row p-4">
                             <div className="col-md-6 mt-2 text-white text-center">
-                                <p className={classNames('text-white', {hide: showSpelling})}>Click <b>Next</b> to view image</p>
+                                <p className={classNames('text-white', {hide: showImage})}>Click <b>Next</b> to view image</p>
                                 <img className={classNames('animate__animated animate__fadeInRight', {hide: !showImage})} src={this.state.alphabets[this.state.currentPostion].image} width="100px" alt="word_capture" />
 
                             </div>
@@ -155,6 +156,8 @@ import classNames from 'classnames'
                             <div className="col-md-6 mt-2 text-white text-center">
                                 <p className={classNames('text-white', {hide: showSpelling})}>Click <b>Next</b> to show spellings</p>
                                 <h1 className={classNames('text-white animate__animated animate__fadeInLeft', {hide: !showSpelling})} id="word">{this.state.alphabets[this.state.currentPostion].word.toUpperCase()}</h1>
+
+                                <p className={classNames('text-white animate__animated animate__fadeInUp', {hide: !showSpelling})} >{this.state.alphabets[this.state.currentPostion].sentence}</p>
                             </div>
                             <audio className={classNames('"mx-auto mt-2', {hide: !showSpelling})} controls src={this.state.alphabets[this.state.currentPostion].wordSound}></audio>
 

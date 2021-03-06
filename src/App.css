@@ -38,10 +38,11 @@
 }
 
 
-.bg-dark{
+.bgg-dark{
   max-height: 70px;
   padding-top: 10px;
   margin-top: 0;
+  background-color: #000000;
 }
 
 .fill_container{
@@ -81,7 +82,7 @@ body{
 }
 
 .btn{
-  margin-right: 5px;
+  margin-right: 2px;
   margin-top: 5px;
 }
 
