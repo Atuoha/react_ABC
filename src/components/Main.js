@@ -159,6 +159,7 @@ import classNames from 'classnames'
 
                                 <p className={classNames('text-white animate__animated animate__fadeInUp', {hide: !showSpelling})} >{this.state.alphabets[this.state.currentPostion].sentence}</p>
                             </div>
+                            
                             <audio className={classNames('"mx-auto mt-2', {hide: !showSpelling})} controls src={this.state.alphabets[this.state.currentPostion].wordSound}></audio>
 
                         </div>
