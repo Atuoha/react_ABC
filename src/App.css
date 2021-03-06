@@ -36,3 +36,84 @@
     transform: rotate(360deg);
   }
 }
+
+
+.bg-dark{
+  max-height: 70px;
+  padding-top: 10px;
+  margin-top: 0;
+}
+
+.fill_container{
+  min-width: 50%;
+  max-width: 60%;
+  min-height: 100px;
+  background-color: rgb(64, 159, 175);
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.top_fill_container{
+  min-width: 30%;
+  max-width: 30%;
+  min-height: 100px;
+  background-color: rgb(64, 159, 175);
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+
+.alphabet{
+  font-size: 10em;
+  font-weight: bold
+}
+
+.upperText{
+  font-size: large;
+  font-weight: bold;
+}
+
+body{
+  font-family:monospace
+}
+
+.btn{
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+#word{
+  font-weight: bold
+}
+
+.anchor-link{
+  cursor: pointer;
+  color:rgb(64, 159, 175);
+}
+
+.anchor-link:hover{
+  text-decoration: none;
+  font-weight: bolder;
+  color:rgb(64, 159, 175);
+
+}
+
+@media(max-width: 792px){
+  .fill_container{
+    min-width: 50%;
+    max-width: 100%;
+    min-height: 100px;
+    background-color: rgb(64, 159, 175);
+    padding-left: 20px;
+    border-radius: 10px;
+  }
+
+  .top_fill_container{
+    min-width: 50%;
+    max-width: 100%;
+    min-height: 100px;
+    background-color: rgb(64, 159, 175);
+    padding-left: 20px;
+    border-radius: 10px;
+  }
+}
