@@ -5,7 +5,9 @@
 		"word": "Apple",
 		"letterSound": "https://a.clyp.it/1ska0kol.mp3",
 		"wordSound": "https://a.clyp.it/5lltdovf.mp3",
-		"sentence": "Peace Emeghara loves Apple"
+		"sentence": "Tony loves Apple",
+		"names": "Andrew, Augusta",
+		"places": "Argentina, Angola, Australia"
 	},
 	{
 		"letter": "B",
@@ -13,7 +15,9 @@
 		"word": "Banana",
 		"letterSound": "https://a.clyp.it/rdwccshr.mp3",
 		"wordSound": "https://a.clyp.it/w5mlonhu.mp3",
-		"sentence": "Give some Banana to Justice"
+		"sentence": "Give some Banana to Peace",
+		"names": "Bethel, Benjamin",
+		"places": "Brazil, Bahamas, Bolivia"
 	},
 	{
 		"letter": "C",
@@ -21,7 +25,9 @@
 		"word": "Cat",
 		"letterSound": "https://a.clyp.it/mbrc0cnk.mp3",
 		"wordSound": "https://a.clyp.it/raqrjphw.mp3",
-		"sentence": "This is a Cat"
+		"sentence": "This is a Cat",
+		"names": "Catherine, Cindy",
+		"places": "China, Cambodia, Cote d'ivoire"
 	},
 	{
 		"letter": "D",
@@ -29,7 +35,9 @@
 		"word": "Dog",
 		"letterSound": "https://a.clyp.it/jjucvgut.mp3",
 		"wordSound": "https://a.clyp.it/jtvbwawd.mp3",
-		"sentence": "Dogs are super friendly"
+		"sentence": "Dogs are super friendly",
+		"names": "David, Diego",
+		"places": "Denmark, Djibouti, Dominica"
 	},
 	{
 		"letter": "E",
@@ -37,7 +45,9 @@
 		"word": "Elephant",
 		"letterSound": "https://a.clyp.it/1cjs3zne.mp3",
 		"wordSound": "https://a.clyp.it/yfg3wkfo.mp3",
-		"sentence": "Where are Elephants?"
+		"sentence": "Where are Elephants?",
+		"names": "Elizabeth, Ethan",
+		"places": "Egypt, Eritrea, Estonia"
 	},
 	{
 		"letter": "F",
@@ -45,7 +55,9 @@
 		"word": "Fish",
 		"letterSound": "https://a.clyp.it/twjeou4m.mp3",
 		"wordSound": "https://a.clyp.it/wi3yq1sb.mp3",
-		"sentence": "Fishes live in water"
+		"sentence": "Fishes live in water",
+		"names": "Fedrick, Ferdinard",
+		"places": "France, Finland, Fiji"
 	},
 	{
 		"letter": "G",
@@ -53,7 +65,9 @@
 		"word": "Giraffe",
 		"letterSound": "https://a.clyp.it/lyjfwdmp.mp3",
 		"wordSound": "https://a.clyp.it/13rblxb5.mp3",
-		"sentence": "Giraffes are very tall"
+		"sentence": "Giraffes are very tall",
+		"names": "Gamalile, Gotham",
+		"places": "Gambia, Greece, Ghana"
 	},
 	{
 		"letter": "H",
@@ -61,7 +75,9 @@
 		"word": "House",
 		"letterSound": "https://a.clyp.it/wbxata2k.mp3",
 		"wordSound": "https://a.clyp.it/3eskhmvf.mp3",
-		"sentence": "This is a House"
+		"sentence": "This is a House",
+		"names": "Henry, Hillary",
+		"places": "Houston, Hungary, Haiti"
 	},
 	{
 		"letter": "I",
@@ -69,7 +85,9 @@
 		"word": "Ice Cream",
 		"letterSound": "https://a.clyp.it/3nemoutg.mp3",
 		"wordSound": "https://a.clyp.it/dqumk35g.mp3",
-		"sentence": "Mummy I need Ice Cream"
+		"sentence": "Mummy I need Ice Cream",
+		"names": "Ini Edo, Ifunanya",
+		"places": "Indonasia, India, Iceland"
 	},
 	{
 		"letter": "J",
@@ -77,7 +95,9 @@
 		"word": "Jeans",
 		"letterSound": "https://a.clyp.it/bq2s42go.mp3",
 		"wordSound": "https://a.clyp.it/qkabivoz.mp3",
-		"sentence": "Am wearing Jeans"
+		"sentence": "Am wearing Jeans",
+		"names": "James, Johnson",
+		"places": "Jamaica, Japan, Jordan"
 	},
 	{
 		"letter": "K",
@@ -85,7 +105,9 @@
 		"word": "Kite",
 		"letterSound": "https://a.clyp.it/1h01g14t.mp3",
 		"wordSound": "https://a.clyp.it/gorlsndp.mp3",
-		"sentence": "Make me a Kite"
+		"sentence": "Make me a Kite",
+		"names": "Kate, Ken",
+		"places": "Kenya, Kuwait, Kyrgzstan"
 	},
 	{
 		"letter": "L",
@@ -93,7 +115,9 @@
 		"word": "Lion",
 		"letterSound": "https://a.clyp.it/inmv011h.mp3",
 		"wordSound": "https://a.clyp.it/d2huuc1i.mp3",
-		"sentence": "Lions are wild animals"
+		"sentence": "Lions are wild animals",
+		"names": "Loveth, Leonard",
+		"places": "Libya, Liberia, Luxembourg"
 	},
 	{
 		"letter": "M",
@@ -101,7 +125,9 @@
 		"word": "Monkey",
 		"letterSound": "https://a.clyp.it/ogzcw4br.mp3",
 		"wordSound": "https://a.clyp.it/c33evijs.mp3",
-		"sentence": "A Monkey hike trees"
+		"sentence": "A Monkey hike trees",
+		"names": "Mathew, Mattias",
+		"places": "Malawi, Malaysia, Madagascar"
 	},
 	{
 		"letter": "N",
@@ -109,7 +135,9 @@
 		"word": "Nest",
 		"letterSound": "https://a.clyp.it/jwif0wux.mp3",
 		"wordSound": "https://a.clyp.it/vd4hsjab.mp3",
-		"sentence": "This is a Nest"
+		"sentence": "This is a Nest",
+		"names": "NewMan, Nice",
+		"places": "Nigeria, Nepal, New Zealand"
 	},
 	{
 		"letter": "O",
@@ -117,7 +145,9 @@
 		"word": "Orange",
 		"letterSound": "https://a.clyp.it/hor3blj4.mp3",
 		"wordSound": "https://a.clyp.it/n5i2snpn.mp3",
-		"sentence": "I need an Orange"
+		"sentence": "I need an Orange",
+		"names": "Omalicha, Okechukwu",
+		"places": "Oman, Odessa, Oakville"
 	},
 	{
 		"letter": "P",
@@ -125,7 +155,9 @@
 		"word": "Pig",
 		"letterSound": "https://a.clyp.it/2lbfc2yw.mp3",
 		"wordSound": "https://a.clyp.it/lxfw5qjf.mp3",
-		"sentence": "This is a Pig"
+		"sentence": "This is a Pig",
+		"names": "Peter, Paul",
+		"places": "Pakistan, Portugal, Philippines"
 	},
 	{
 		"letter": "Q",
@@ -133,7 +165,9 @@
 		"word": "Queen",
 		"letterSound": "https://a.clyp.it/x2ud20nv.mp3",
 		"wordSound": "https://a.clyp.it/w1q5u1v0.mp3",
-		"sentence": "Elizabeth is a Queen"
+		"sentence": "Elizabeth is a Queen",
+		"names": "Queen, Queenetha",
+		"places": "Qatar, Quito, Qom"
 	},
 	{
 		"letter": "R",
@@ -141,7 +175,9 @@
 		"word": "Rabbit",
 		"letterSound": "https://a.clyp.it/t3yvlzod.mp3",
 		"wordSound": "https://a.clyp.it/aaxdbuw2.mp3",
-		"sentence": "Rabbits are kind"
+		"sentence": "Rabbits are kind",
+		"names": "Randy, Raymond",
+		"places": "Rwanda, Russia, Romania"
 	},
 	{
 		"letter": "S",
@@ -149,7 +185,9 @@
 		"word": "Snake",
 		"letterSound": "https://a.clyp.it/1n12hddj.mp3",
 		"wordSound": "https://a.clyp.it/y0mtwicy.mp3",
-		"sentence": "Snakes crawls"
+		"sentence": "Snakes crawls",
+		"names": "Stella, Stanley",
+		"places": "Senegal, Saudi Arabia, Singapore"
 	},
 	{
 		"letter": "T",
@@ -157,7 +195,9 @@
 		"word": "Tree",
 		"letterSound": "https://a.clyp.it/juygj2dm.mp3",
 		"wordSound": "https://a.clyp.it/2jsbuovu.mp3",
-		"sentence": "This is a Tree"
+		"sentence": "This is a Tree",
+		"names": "Titus, Timothy",
+		"places": "Thailand, Togo, Turkey"
 	},
 	{
 		"letter": "U",
@@ -165,7 +205,9 @@
 		"word": "Umbrella",
 		"letterSound": "https://a.clyp.it/kqkuyotb.mp3",
 		"wordSound": "https://a.clyp.it/iehqpzva.mp3",
-		"sentence": "This is an Umbrella"
+		"sentence": "This is an Umbrella",
+		"names": "Ucharia, Ugochukwu",
+		"places": "USA, Uruguay, Uzbekistan"
 	},
 	{
 		"letter": "V",
@@ -173,7 +215,9 @@
 		"word": "Violin",
 		"letterSound": "https://a.clyp.it/cmoffq3a.mp3",
 		"wordSound": "https://a.clyp.it/zvlpfkby.mp3",
-		"sentence": "This is a Violin"
+		"sentence": "This is a Violin",
+		"names": "Victor, Victory",
+		"places": "Vanuatu, Venezuela, Vietnam"
 	},
 	{
 		"letter": "W",
@@ -181,7 +225,9 @@
 		"word": "Watch",
 		"letterSound": "https://a.clyp.it/vdrvjdrl.mp3",
 		"wordSound": "https://a.clyp.it/0wtlxrju.mp3",
-		"sentence": "I need a Watch"
+		"sentence": "I need a Watch",
+		"names": "Wisdom, Wilson",
+		"places": "Warangal, Wroclaw, Winnipeg"
 	},
 	{
 		"letter": "X",
@@ -189,7 +235,9 @@
 		"word": "Xylophone",
 		"letterSound": "https://a.clyp.it/monkqdlo.mp3",
 		"wordSound": "https://a.clyp.it/kdgnowj5.mp3",
-		"sentence": "This is a Xylophone"
+		"sentence": "This is a Xylophone",
+		"names": "Xing, Xiaoying",
+		"places": "Xalapa, Xiamen, Xi'an"
 	},
 	{
 		"letter": "Y",
@@ -197,7 +245,9 @@
 		"word": "Yo Yo",
 		"letterSound": "https://a.clyp.it/ii2dzi3r.mp3",
 		"wordSound": "https://a.clyp.it/xfy2b45i.mp3",
-		"sentence": "Ernest has a Yo Yo"
+		"sentence": "Ernest has a Yo Yo",
+		"names": "Yeonna, Yong Peo",
+		"places": "Yemen, Yalova, Yamagata"
 	},
 	{
 		"letter": "Z",
@@ -205,6 +255,8 @@
 		"word": "Zebra",
 		"letterSound": "https://a.clyp.it/5u4aqrst.mp3",
 		"wordSound": "https://a.clyp.it/svkeedbz.mp3",
-		"sentence": "This is a Zebra"
+		"sentence": "This is a Zebra",
+		"names": "Zeph, Zong Xiach",
+		"places": "Zambia, Zimbabwe, Zahedan"
 	}
 ]

@@ -163,7 +163,7 @@ import classNames from 'classnames'
                         <div className="row p-4">
                             <div className="col-md-6 mt-2 text-white text-center">
                                 <p className={classNames('text-white', {hide: showImage})}>Click <b>Next</b> to view image</p>
-                                <img className={classNames('animate__animated animate__fadeInRight', {hide: !showImage})} src={this.state.alphabets[this.state.currentPostion].image} width="100px" alt="word_capture" />
+                                <img className={classNames('animate__animated animate__fadeInRight', {hide: !showImage})} src={this.state.alphabets[this.state.currentPostion].image} width="150px" alt="word_capture" />
 
                             </div>
 
@@ -172,7 +172,22 @@ import classNames from 'classnames'
                                 <p className={classNames('text-white', {hide: showSpelling})}>Click <b>Next</b> to show spellings</p>
                                 <h1 className={classNames('text-white animate__animated animate__fadeInLeft', {hide: !showSpelling})} id="word">{this.state.alphabets[this.state.currentPostion].word.toUpperCase()}</h1>
 
-                                <p className={classNames('text-white animate__animated animate__fadeInUp', {hide: !showSpelling})} ><i className="fa fa-check-circle"></i> {this.state.alphabets[this.state.currentPostion].sentence}</p>
+                                <table className={classNames('table text-white animate__animated animate__fadeInUp', {hide: !showSpelling})}>
+                                    <tr>
+                                        <th>Sentence:</th>
+                                         <td>{this.state.alphabets[this.state.currentPostion].sentence}</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th><i className="fa fa-user"></i> Names:</th>
+                                         <td>{this.state.alphabets[this.state.currentPostion].names}</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Places:</th>
+                                         <td>{this.state.alphabets[this.state.currentPostion].places}</td>
+                                    </tr>
+                                </table>
                             </div>
 
                             <audio className={classNames('"mx-auto mt-2', {hide: !showSpelling})}  src={this.state.alphabets[this.state.currentPostion].wordSound} data-key="word"></audio>
