@@ -25,6 +25,15 @@ import classNames from 'classnames'
 
     }
 
+    componentDidMount(){
+        let letterSound = document.querySelector(`audio[data-key = "letter"]`);
+        letterSound.play()
+    }
+
+    componentDidUpdate(){
+        this.playsound()
+    }
+
     toggleSound(e){
         let res =  e.target.checked
         this.setState({
@@ -35,7 +44,12 @@ import classNames from 'classnames'
     playsound(){
         if(this.state.sound === true){
             let letterSound = document.querySelector(`audio[data-key = "letter"]`);
-            letterSound.play()
+            let wordSound = document.querySelector(`audio[data-key = "word"]`);
+            if(this.state.currentTick === 0){
+                letterSound.play()
+            }else{
+                wordSound.play()
+            }
         }   
     }
 
@@ -48,7 +62,7 @@ import classNames from 'classnames'
 
     previousMotion(){
 
-         // Resetting current tick
+         // Resetting current titck
             this.setState({
                 currentTick: 0
             })
@@ -130,7 +144,8 @@ import classNames from 'classnames'
             <div>
 
                 <div className="container text-center">
-                    <p className="upperText">Random Letters <input onChange={this.randomizeWords} type="checkbox" />   Sound <input type="checkbox" checked={this.state.sound} onChange={this.toggleSound} /></p> 
+                   
+                    <p className="upperText">Random Letters <input className="checkbox" onChange={this.randomizeWords} type="checkbox" />   Sound <input type="checkbox" className="checkbox" checked={this.state.sound} onChange={this.toggleSound} /></p> 
 
                     <div className="top_fill_container mx-auto">
                         <h1 className="alphabet text-white animate__animated animate__bounce animate__repeat-2">{this.state.alphabets[this.state.currentPostion].letter}</h1>
@@ -157,10 +172,10 @@ import classNames from 'classnames'
                                 <p className={classNames('text-white', {hide: showSpelling})}>Click <b>Next</b> to show spellings</p>
                                 <h1 className={classNames('text-white animate__animated animate__fadeInLeft', {hide: !showSpelling})} id="word">{this.state.alphabets[this.state.currentPostion].word.toUpperCase()}</h1>
 
-                                <p className={classNames('text-white animate__animated animate__fadeInUp', {hide: !showSpelling})} >{this.state.alphabets[this.state.currentPostion].sentence}</p>
+                                <p className={classNames('text-white animate__animated animate__fadeInUp', {hide: !showSpelling})} ><i className="fa fa-check-circle"></i> {this.state.alphabets[this.state.currentPostion].sentence}</p>
                             </div>
-                            
-                            <audio className={classNames('"mx-auto mt-2', {hide: !showSpelling})} controls src={this.state.alphabets[this.state.currentPostion].wordSound}></audio>
+
+                            <audio className={classNames('"mx-auto mt-2', {hide: !showSpelling})}  src={this.state.alphabets[this.state.currentPostion].wordSound} data-key="word"></audio>
 
                         </div>
                     </div>
